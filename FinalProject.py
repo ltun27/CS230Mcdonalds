@@ -143,7 +143,7 @@ elif section == "Store Map":
                data=grouped,
                get_position='[longitude, latitude]',
                get_color='color',
-               get_radius=175,
+               get_radius=300,
                pickable=True,
                auto_highlight=True
            )
