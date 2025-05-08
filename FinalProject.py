@@ -1,3 +1,17 @@
+"""
+Name:  Lylah Tun
+CS230: Section 2
+Data:  McDonalds Store Reviews
+URL:   https://cs230mcdonalds-8rkvwzn3cbxkyt6dft8gvg.streamlit.app/
+
+Description:
+
+This program is an interactive web app that lets users explore McDonald's customer reviews
+across the U.S. Users can filter reviews by state and rating,
+view charts showing review trends, and see store locations on a map.
+The app includes bar charts, a pie chart, a pivot table, and sample customer comments.
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np
