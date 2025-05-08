@@ -86,7 +86,7 @@ grouped['color'] = grouped['avg_rating'].apply(rating_to_color)
 if section == "Overview":
    st.markdown("### Welcome to the McDonald's Review Explorer")
    st.markdown("Use the sidebar to explore the data through different visualizations including ratings distribution, geographic store map, sample customer reviews, and state-by-state comparisons.")
-   st.image("C:\\Users\\lylah\\OneDrive - Bentley University\\Python\\MDlogo.png", width=200)
+   st.image("MDlogo.png", width=200)
    st.markdown(f"**Filtered data contains:** {len(filtered)} reviews across {len(grouped)} unique locations.")
 
 
